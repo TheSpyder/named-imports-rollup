@@ -1,7 +1,7 @@
 Named imports and tree shaking
 ==============================
 
-Demonstrating that `import * as ...` imports are tree shaken by Rollup.
+Demonstrating that `import * as name from ...` style named imports are tree shaken by Rollup.
 
 Info
 ----
