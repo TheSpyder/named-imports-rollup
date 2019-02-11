@@ -1,0 +1,14 @@
+{
+  "name": "named-imports-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "run": "node --experimental-modules index.mjs"
+  }
+}
