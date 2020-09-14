@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "rollup": "^1.1.2",
-    "rollup-plugin-node-resolve": "^4.0.0"
+    "rollup": "^2.26.11"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "run": "node --experimental-modules index.mjs"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0"
   }
 }
